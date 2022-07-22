@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loginpage</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="DHomix" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <link href="css/common.css" rel="stylesheet" />
+     
+    </head>
+<body>
+    <div id="create_box">
+        <div id="main">
+            <h1>계정 만들기</h1>
+            <div id="txtcreat">
+                <input id="loginId" name="loginId" type="text" placeholder="아이디를 입력해주세요." />
+                <input id="loginPw" name="loginPw" type="password" placeholder="비밀번호를 입력해주세요." />
+                <input id="uName" name="userName" type="text" placeholder="이름을 입력하세요" />
+                </br> 성별 :<span class="numb">*</span>
+                남 <input id="man" type="radio" name="gender" value="F"/> 
+                여 <input id="woman" type="radio" name="gender" value="m"/> </br>
+                <label id="phoneNum">
+                    핸드폰번호<span class="numb">*</span></br>
+                       <input type="tel" name="phone1" maxlength="3" required/>
+                       - 
+                       <input type="tel" name="phone1" maxlength="4" required/>
+                       -
+                       <input type="tel" name="phone2" maxlength="4" required/>
+                   </label>
+                <input id="uEmail" name="uEmail" type="email" placeholder="이메일을 입력하세요" />
+                <div class="signUp">
+                    <button id="signUpButton">가입하기</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
